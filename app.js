@@ -37,7 +37,6 @@ app.get("/",function(req,res){
 
 //INDEX ROUTE
 app.get("/blogs", function(req,res){
-	console.log("Someone requested your webpage!!");
 	Blog.find({},function(err,blogs){
 		if(err){
 			console.log(err);
