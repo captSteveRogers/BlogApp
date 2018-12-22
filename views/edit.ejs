@@ -5,11 +5,11 @@
 		<form action="/blogs/<%=blog._id%>?_method=PUT" method="post" class="ui form">
 			<div class="field">
 				<label>Title</label>
-				<input type="text" name="blog[title]" value="<%= blog.title %>">
+				<input type="text" name="blog[title]" value="<%= blog.title %>" required>
 			</div>
 			<div class="field">
 				<label>Image</label>
-				<input type="text" name="blog[image]" value="<%= blog.image %>">
+				<input type="text" name="blog[image]" value="<%= blog.image %>" required>
 			</div>
 			<div class="field">
 				<label>Blog Post</label>
