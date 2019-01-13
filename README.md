@@ -24,7 +24,9 @@ View it at : https://desolate-retreat-25693.herokuapp.com/blogs
 * To install dependencies, use npm install <dependency-name> --save
 * [Download mongoDB, refer to docs](https://docs.mongodb.com/manual/installation/) 
 
+### Beginners Please note:
 
+The views directory of the repo contains ejs files (Embedded JavaScript), which is nothing, but HTML files where we can write javascript inline to elements, without explicitly using the script tag. partials sub-directory contains the header and footer files, which form the boilerplate of the HTML file. Enjoy!!!
 
 
 
