@@ -20,6 +20,10 @@ Dependencies:
 
 View it at : https://desolate-retreat-25693.herokuapp.com/blogs
 
+* [Download node.js from here, inclusive of npm](https://nodejs.org/en/download/)
+* To install dependencies, use npm install <dependency-name> --save
+* [Download mongoDB, refer to docs](https://docs.mongodb.com/manual/installation/) 
+
 
 
 
