@@ -1,6 +1,6 @@
 # BlogApp
 
-This is a full-stack blog app, also appropriately illustrating the concept of restful routes. This app is created using MEN Stack.
+This is a full-stack blog app, also appropriately illustrating the concept of restful routes. This app is created using MEN(MongoDB, express.js, node.js) Stack.
 
 Tools and dependencies:
 1. Node.js
@@ -27,6 +27,15 @@ View it at : https://desolate-retreat-25693.herokuapp.com/blogs
 ### Beginners Please note:
 
 The views directory of the repo contains ejs files (Embedded JavaScript), which is nothing, but HTML files where we can write javascript inline to elements, without explicitly using the script tag. partials sub-directory contains the header and footer files, which form the boilerplate of the HTML file. Enjoy!!!
+
+### To run the project on local machine:
+1. Clone/download the repository.
+2. in the directory of the project, execute the following commands:
+
+  * npm install express ejs body-parser method-override express-sanitizer mongoose --save 
+   * although it isn't required, but a few platforms dont read the dependencies which are copied. thus to be safe, execute this.
+  * node app.js
+3. Then in the local browser, run localhost:8080   
 
 
 
