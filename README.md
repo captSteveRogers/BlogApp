@@ -32,9 +32,9 @@ The views directory of the repo contains ejs files (Embedded JavaScript), which 
 1. Clone/download the repository.
 2. in the directory of the project, execute the following commands:
 
-  * npm install express ejs body-parser method-override express-sanitizer mongoose --save 
-   a. although it isn't required, but a few platforms dont read the dependencies which are copied. thus to be safe, execute this.
-  * node app.js
+       * npm install express ejs body-parser method-override express-sanitizer mongoose --save 
+          
+       * node app.js
 3. Then in the local browser, run localhost:8080   
 
 
